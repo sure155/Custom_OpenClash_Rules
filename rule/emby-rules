@@ -1,0 +1,31 @@
+# Emby 专用直连规则
+# 更新时间：2025-09-07
+
+# lemby 节点
+DOMAIN,cf.lemby.me
+DOMAIN,us.lemby.me
+
+# bangumi 节点
+DOMAIN,ap-cn01.emby.bangumi.ca
+DOMAIN,ap-cn02.emby.bangumi.ca
+
+# theluyuan 节点
+DOMAIN,dongman.theluyuan.com
+
+# emby 站点
+DOMAIN-SUFFIX,embymv.link
+DOMAIN,emby.h88d30ac9.nyat.app
+
+# younoyes 节点
+DOMAIN,plusjp1.younoyes.com
+DOMAIN,plusde1.younoyes.com
+DOMAIN,plusus2.younoyes.com
+DOMAIN,plusus3.younoyes.com
+DOMAIN,plushk1.younoyes.com
+DOMAIN,plushk2.younoyes.com
+DOMAIN,plushk3.younoyes.com
+
+# liminalnet 节点
+DOMAIN,mobile.liminalnet.site
+DOMAIN,telecom.liminalnet.site
+DOMAIN,unicom.liminalnet.site
