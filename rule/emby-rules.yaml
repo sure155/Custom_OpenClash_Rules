@@ -1,4 +1,20 @@
 payload:
+  # Tailscale 专用 IP
+  - IP-CIDR,100.101.112.124/32
+  - IP-CIDR,100.107.1.117/32
+  - IP-CIDR,100.83.198.31/32
+  - IP-CIDR,100.80.193.95/32
+
+  # Zerotier 专用 IP
+  - IP-CIDR,192.168.192.220/32
+
+  # EasyTier 专用 IP
+  - IP-CIDR,10.10.10.2/32
+
+  # Zerotier/Tailscale 默认 UDP 端口
+  - DST-PORT,9993
+  - DST-PORT,41641
+
   # lemby 节点
   - DOMAIN,cf.lemby.me
   - DOMAIN,us.lemby.me
