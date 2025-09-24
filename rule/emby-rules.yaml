@@ -45,6 +45,8 @@ payload:
   - DOMAIN,youus2.567741.xyz
   - DOMAIN,youus3.567741.xyz
   - DOMAIN,youyes.567741.xyz
+  - DOMAIN,test.younoyes.com
+  
 
 
   # liminalnet 节点
