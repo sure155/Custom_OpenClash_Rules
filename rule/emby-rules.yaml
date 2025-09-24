@@ -32,12 +32,20 @@ payload:
 
   # younoyes 节点
   - DOMAIN,plusjp1.younoyes.com
+  - DOMAIN,plusjp2.younoyes.com
   - DOMAIN,plusde1.younoyes.com
   - DOMAIN,plusus2.younoyes.com
   - DOMAIN,plusus3.younoyes.com
   - DOMAIN,plushk1.younoyes.com
   - DOMAIN,plushk2.younoyes.com
   - DOMAIN,plushk3.younoyes.com
+  - DOMAIN,youjp1.567741.xyz
+  - DOMAIN,youjp2.567741.xyz
+  - DOMAIN,youus1.567741.xyz
+  - DOMAIN,youus2.567741.xyz
+  - DOMAIN,youus3.567741.xyz
+  - DOMAIN,youyes.567741.xyz
+
 
   # liminalnet 节点
   - DOMAIN,mobile.liminalnet.site
