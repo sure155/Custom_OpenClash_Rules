@@ -27,7 +27,7 @@ payload:
   - DOMAIN,dongman.theluyuan.com
 
   # emby 站点
-  - DOMAIN,embymv.link
+  
   - DOMAIN,emby.h88d30ac9.nyat.app
 
   # younoyes 节点
