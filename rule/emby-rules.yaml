@@ -52,6 +52,8 @@ payload:
   # liminalnet 节点
   - DOMAIN,unicom.liminalnet.site
   - DOMAIN,mobile.liminalnet.site
+  - DOMAIN,telecom.liminalnet.site
+
   
 
   - DOMAIN,a.sure156.cf
