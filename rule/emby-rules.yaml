@@ -52,6 +52,8 @@ payload:
   # liminalnet 节点
   - DOMAIN,telecom.liminalnet.site
   - DOMAIN,unicom.liminalnet.site
+  - DOMAIN,emby.liminalnet.com  
+  - DOMAIN,mobile.liminalnet.site  
 
   - DOMAIN,a.sure156.cf
   - DOMAIN,mygcns.mobaiemby.site
