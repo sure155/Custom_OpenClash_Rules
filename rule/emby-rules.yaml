@@ -50,7 +50,6 @@ payload:
 
 
   # liminalnet 节点
-  - DOMAIN,mobile.liminalnet.site
   - DOMAIN,telecom.liminalnet.site
   - DOMAIN,unicom.liminalnet.site
 
