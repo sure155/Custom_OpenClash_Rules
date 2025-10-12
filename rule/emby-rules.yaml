@@ -60,3 +60,9 @@ payload:
   - DOMAIN,mygcns.mobaiemby.site
   - DOMAIN,178.239.125.136
   - DOMAIN,mcdn.mobaiemby.site
+
+  # 安卓系统联网检测域名直连
+  - DOMAIN,connectivitycheck.gstatic.com
+  - DOMAIN,connectivitycheck.android.com
+  - DOMAIN,clients3.google.com
+
