@@ -64,4 +64,6 @@ payload:
   - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN,connectivitycheck.android.com
   - DOMAIN,clients3.google.com
+  - DOMAIN,live.tv.darwinchow.com
+
 
