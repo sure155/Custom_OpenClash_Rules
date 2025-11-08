@@ -15,8 +15,7 @@ payload:
   - DST-PORT,9993
   - DST-PORT,41641
 
-  # lemby 节点
-  - DOMAIN,cf.lemby.me
+  # lemby 节点 
   - DOMAIN,us.lemby.me
 
   # bangumi 节点
