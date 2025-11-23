@@ -65,5 +65,11 @@ payload:
   - DOMAIN,connectivitycheck.android.com
   - DOMAIN,clients3.google.com
   - DOMAIN,live.tv.darwinchow.com
+  - IP-CIDR,178.239.125.0/24,no-resolve
+  - IP-CIDR,103.197.185.0/24,no-resolve
+  - IP-CIDR,45.153.244.0/24,no-resolve
+
+
+
 
 
