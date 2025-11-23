@@ -17,4 +17,4 @@
   - DOMAIN,embymv.link
   - DOMAIN,linux.do
   - IP-CIDR,104.21.80.0/24,no-resolve
-
+  - IP-CIDR,88.212.77.0/24,no-resolve
