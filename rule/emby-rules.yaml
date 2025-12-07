@@ -50,7 +50,7 @@ payload:
 
 
   # liminalnet 节点
-  - DOMAIN,unicom.liminalnet.site
+  - DOMAIN,vip.liminalnet.pro
   - DOMAIN,mobile.liminalnet.site
 
   
