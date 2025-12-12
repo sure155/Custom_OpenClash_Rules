@@ -56,6 +56,17 @@ DOMAIN,mobile.liminalnet.site,no-resolve
 DOMAIN,a.sure156.cf,no-resolve
 DOMAIN,mygcns.mobaiemby.site,no-resolve
 DOMAIN,mcdn.mobaiemby.site,no-resolve
+DOMAIN,emby1.sure156.cf,no-resolve
+DOMAIN,emby2.sure156.cf,no-resolve
+DOMAIN,emby3.sure156.cf,no-resolve
+DOMAIN,emby4.sure156.cf,no-resolve
+DOMAIN,emby5.sure156.cf,no-resolve
+DOMAIN,embya.sure156.cf,no-resolve
+DOMAIN,embyb.sure156.cf,no-resolve
+DOMAIN,embyc.sure156.cf,no-resolve
+DOMAIN,embyd.sure156.cf,no-resolve
+DOMAIN,embye.sure156.cf,no-resolve
+
 
 # --- 修正错误格式：178.239.125.136 是 IP，应写为 IP-CIDR ---
 IP-CIDR,178.239.125.136/32,no-resolve
@@ -70,3 +81,4 @@ DOMAIN,live.tv.darwinchow.com,no-resolve
 IP-CIDR,178.239.125.0/24,no-resolve
 IP-CIDR,103.197.185.0/24,no-resolve
 IP-CIDR,45.153.244.0/24,no-resolve
+IP-CIDR,154.64.232.0/24,no-resolve
