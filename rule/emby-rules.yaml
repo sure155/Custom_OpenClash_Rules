@@ -50,7 +50,6 @@ DOMAIN,test.younoyes.com,no-resolve
 
 # --- liminalnet 节点 ---
 DOMAIN,vip.liminalnet.pro,no-resolve
-DOMAIN,mobile.liminalnet.site,no-resolve
 
 # --- 其他私有 Emby 站点 ---
 DOMAIN,a.sure156.cf,no-resolve
