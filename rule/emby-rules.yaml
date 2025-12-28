@@ -56,16 +56,32 @@ DOMAIN,mobile.liminalnet.site,no-resolve
 DOMAIN,a.sure156.cf,no-resolve
 DOMAIN,mygcns.mobaiemby.site,no-resolve
 DOMAIN,mcdn.mobaiemby.site,no-resolve
-DOMAIN,emby1a.sure156.cf,no-resolve
-DOMAIN,emby2b.sure156.cf,no-resolve
-DOMAIN,emby3c.sure156.cf,no-resolve
-DOMAIN,emby4d.sure156.cf,no-resolve
-DOMAIN,emby5e.sure156.cf,no-resolve
+DOMAIN,embyh1.sure156.cf,no-resolve
+DOMAIN,embyh2.sure156.cf,no-resolve
+DOMAIN,embyh3.sure156.cf,no-resolve
+DOMAIN,embyh4.sure156.cf,no-resolve
+DOMAIN,embyh5.sure156.cf,no-resolve
 DOMAIN,embya.sure156.cf,no-resolve
 DOMAIN,embyb.sure156.cf,no-resolve
 DOMAIN,embyc.sure156.cf,no-resolve
 DOMAIN,embyd.sure156.cf,no-resolve
 DOMAIN,embye.sure156.cf,no-resolve
+DOMAIN,embyk1.sure156.cf,no-resolve
+DOMAIN,embyk2.sure156.cf,no-resolve
+DOMAIN,embyk3.sure156.cf,no-resolve
+DOMAIN,embyk4.sure156.cf,no-resolve
+DOMAIN,embyk5.sure156.cf,no-resolve
+DOMAIN,embym1.sure156.cf,no-resolve
+DOMAIN,embym2.sure156.cf,no-resolve
+DOMAIN,embym3.sure156.cf,no-resolve
+DOMAIN,embym4.sure156.cf,no-resolve
+DOMAIN,embym5.sure156.cf,no-resolve
+DOMAIN,embya1.sure156.cf,no-resolve
+DOMAIN,embya2.sure156.cf,no-resolve
+DOMAIN,embya3.sure156.cf,no-resolve
+DOMAIN,embya4.sure156.cf,no-resolve
+DOMAIN,embya5.sure156.cf,no-resolve
+
 
 
 # --- 修正错误格式：178.239.125.136 是 IP，应写为 IP-CIDR ---
