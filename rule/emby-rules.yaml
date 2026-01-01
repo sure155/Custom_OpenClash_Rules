@@ -84,9 +84,6 @@ DOMAIN,embya5.sure156.cf,no-resolve
 
 
 # --- 修正错误格式：178.239.125.136 是 IP，应写为 IP-CIDR ---
-
-- SRC-IP-CIDR,192.168.1.150/32,DIRECT
-
 IP-CIDR,178.239.125.136/32,no-resolve
 
 # --- 安卓联网检测：直连 ---
