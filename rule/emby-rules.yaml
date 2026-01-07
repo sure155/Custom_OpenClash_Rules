@@ -97,3 +97,5 @@ IP-CIDR,178.239.125.0/24,no-resolve
 IP-CIDR,103.197.185.0/24,no-resolve
 IP-CIDR,45.153.244.0/24,no-resolve
 IP-CIDR,154.64.232.0/24,no-resolve
+IP-ASN,132203,no-resolve
+
