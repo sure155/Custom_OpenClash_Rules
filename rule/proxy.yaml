@@ -1,22 +1,31 @@
-  - DOMAIN,theporndude.com
-  - DOMAIN,dr.cchostvps.xyz
-  - DOMAIN,plus.younoyes.com
-  - DOMAIN,shop.159615.xyz
-  - DOMAIN,emby.hohai.eu.org
-  - DOMAIN,shouer.910427.xyz
-  - DOMAIN,emby.kongcheng666.dpdns.org
-  - DOMAIN,emby.191920.xyz
-  - DOMAIN,emos.lol
-  - DOMAIN,emby.liminalnet.com  
-  - DOMAIN,v2rayssr.com
-  - DOMAIN,telecom.liminalnet.site
-  - DOMAIN,theporndude.com
-  - DOMAIN,m.mobaiemby.site
-  - DOMAIN,emby.h88d30ac9.nyat.app
-  - DOMAIN,cf.lemby.me
-  - DOMAIN,embymv.link
-  - DOMAIN,linux.do
-  - DOMAIN,yonggekkk.github.io
-  - DOMAIN.theporndude.com
-  - IP-CIDR,104.21.80.0/24,no-resolve
-  - IP-CIDR,88.212.77.0/24,no-resolve
+# ============================
+# 自定义代理规则（走 🧠 智能优选 SMART）
+# ============================
+
+# -------------------------
+# 域名规则
+# -------------------------
+DOMAIN,theporndude.com,🧠 智能优选
+DOMAIN,dr.cchostvps.xyz,🧠 智能优选
+DOMAIN,plus.younoyes.com,🧠 智能优选
+DOMAIN,shop.159615.xyz,🧠 智能优选
+DOMAIN,emby.hohai.eu.org,🧠 智能优选
+DOMAIN,shouer.910427.xyz,🧠 智能优选
+DOMAIN,emby.kongcheng666.dpdns.org,🧠 智能优选
+DOMAIN,emby.191920.xyz,🧠 智能优选
+DOMAIN,emos.lol,🧠 智能优选
+DOMAIN,emby.liminalnet.com,🧠 智能优选
+DOMAIN,v2rayssr.com,🧠 智能优选
+DOMAIN,telecom.liminalnet.site,🧠 智能优选
+DOMAIN,m.mobaiemby.site,🧠 智能优选
+DOMAIN,emby.h88d30ac9.nyat.app,🧠 智能优选
+DOMAIN,cf.lemby.me,🧠 智能优选
+DOMAIN,embymv.link,🧠 智能优选
+DOMAIN,linux.do,🧠 智能优选
+DOMAIN,yonggekkk.github.io,🧠 智能优选
+
+# -------------------------
+# IP-CIDR 规则
+# -------------------------
+IP-CIDR,104.21.80.0/24,🧠 智能优选,no-resolve
+IP-CIDR,88.212.77.0/24,🧠 智能优选,no-resolve
