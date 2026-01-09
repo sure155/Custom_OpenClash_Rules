@@ -1,116 +1,101 @@
 # ============================
-# Emby 强制直连规则（OpenClash fake-ip / clash-classic）
+# Emby 强制直连规则（OpenClash Compatible）
 # ============================
 
-# -------------------------------------------------
-# Tailscale / Zerotier / EasyTier 内网直连
-# -------------------------------------------------
+# --- Tailscale 专用 IP ---
+IP-CIDR,100.101.112.124/32,no-resolve
+IP-CIDR,100.107.1.117/32,no-resolve
+IP-CIDR,100.83.198.31/32,no-resolve
+IP-CIDR,100.80.193.95/32,no-resolve
 
-# Tailscale 全网段兜底（必须）
-IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+# --- Zerotier 专用 IP ---
+IP-CIDR,192.168.192.220/32,no-resolve
 
-# Zerotier 默认网段
-IP-CIDR,192.168.192.0/24,DIRECT,no-resolve
+# --- EasyTier 专用 IP ---
+IP-CIDR,10.10.10.2/32,no-resolve
 
-# EasyTier
-IP-CIDR,10.10.10.2/32,DIRECT,no-resolve
+# --- Zerotier/Tailscale 默认端口直连 ---
+DST-PORT,9993
+DST-PORT,41641
 
-# Zerotier / Tailscale 常用端口
-DST-PORT,41641/udp,DIRECT
-DST-PORT,9993/udp,DIRECT
+# --- lemby 节点 ---
+DOMAIN,us.lemby.me,no-resolve
 
-# -------------------------------------------------
-# Emby / 私有站点（DOMAIN 规则，fake-ip 下必须可解析）
-# -------------------------------------------------
+# --- bangumi 节点 ---
+DOMAIN,ap-cn01.emby.bangumi.ca,no-resolve
+DOMAIN,ap-cn02.emby.bangumi.ca,no-resolve
 
-# lemby
-DOMAIN,us.lemby.me,DIRECT
+# --- theluyuan 节点 ---
+DOMAIN,dongman.theluyuan.com,no-resolve
 
-# bangumi
-DOMAIN,ap-cn01.emby.bangumi.ca,DIRECT
-DOMAIN,ap-cn02.emby.bangumi.ca,DIRECT
+# --- emby 站点 ---
+DOMAIN,emby.h88d30ac9.nyat.app,no-resolve
 
-# theluyuan
-DOMAIN,dongman.theluyuan.com,DIRECT
+# --- younoyes 节点 ---
+DOMAIN,plusjp1.younoyes.com,no-resolve
+DOMAIN,plusjp2.younoyes.com,no-resolve
+DOMAIN,plusde1.younoyes.com,no-resolve
+DOMAIN,plusus2.younoyes.com,no-resolve
+DOMAIN,plusus3.younoyes.com,no-resolve
+DOMAIN,plushk1.younoyes.com,no-resolve
+DOMAIN,plushk2.younoyes.com,no-resolve
+DOMAIN,plushk3.younoyes.com,no-resolve
+DOMAIN,youjp1.567741.xyz,no-resolve
+DOMAIN,youjp2.567741.xyz,no-resolve
+DOMAIN,youus1.567741.xyz,no-resolve
+DOMAIN,youus2.567741.xyz,no-resolve
+DOMAIN,youus3.567741.xyz,no-resolve
+DOMAIN,youyes.567741.xyz,no-resolve
+DOMAIN,test.younoyes.com,no-resolve
 
-# emby 站点
-DOMAIN,emby.h88d30ac9.nyat.app,DIRECT
+# --- liminalnet 节点 ---
+DOMAIN,vip.liminalnet.pro,no-resolve
 
-# younoyes
-DOMAIN,plusjp1.younoyes.com,DIRECT
-DOMAIN,plusjp2.younoyes.com,DIRECT
-DOMAIN,plusde1.younoyes.com,DIRECT
-DOMAIN,plusus2.younoyes.com,DIRECT
-DOMAIN,plusus3.younoyes.com,DIRECT
-DOMAIN,plushk1.younoyes.com,DIRECT
-DOMAIN,plushk2.younoyes.com,DIRECT
-DOMAIN,plushk3.younoyes.com,DIRECT
-DOMAIN,youjp1.567741.xyz,DIRECT
-DOMAIN,youjp2.567741.xyz,DIRECT
-DOMAIN,youus1.567741.xyz,DIRECT
-DOMAIN,youus2.567741.xyz,DIRECT
-DOMAIN,youus3.567741.xyz,DIRECT
-DOMAIN,youyes.567741.xyz,DIRECT
-DOMAIN,test.younoyes.com,DIRECT
+# --- 其他私有 Emby 站点 ---
+DOMAIN,a.sure156.cf,no-resolve
+DOMAIN,mygcns.mobaiemby.site,no-resolve
+DOMAIN,mcdn.mobaiemby.site,no-resolve
+DOMAIN,embyh1.sure156.cf,no-resolve
+DOMAIN,embyh2.sure156.cf,no-resolve
+DOMAIN,embyh3.sure156.cf,no-resolve
+DOMAIN,embyh4.sure156.cf,no-resolve
+DOMAIN,embyh5.sure156.cf,no-resolve
+DOMAIN,embya.sure156.cf,no-resolve
+DOMAIN,embyb.sure156.cf,no-resolve
+DOMAIN,embyc.sure156.cf,no-resolve
+DOMAIN,embyd.sure156.cf,no-resolve
+DOMAIN,embye.sure156.cf,no-resolve
+DOMAIN,embyk1.sure156.cf,no-resolve
+DOMAIN,embyk2.sure156.cf,no-resolve
+DOMAIN,embyk3.sure156.cf,no-resolve
+DOMAIN,embyk4.sure156.cf,no-resolve
+DOMAIN,embyk5.sure156.cf,no-resolve
+DOMAIN,embym1.sure156.cf,no-resolve
+DOMAIN,embym2.sure156.cf,no-resolve
+DOMAIN,embym3.sure156.cf,no-resolve
+DOMAIN,embym4.sure156.cf,no-resolve
+DOMAIN,embym5.sure156.cf,no-resolve
+DOMAIN,embya1.sure156.cf,no-resolve
+DOMAIN,embya2.sure156.cf,no-resolve
+DOMAIN,embya3.sure156.cf,no-resolve
+DOMAIN,embya4.sure156.cf,no-resolve
+DOMAIN,embya5.sure156.cf,no-resolve
 
-# liminalnet
-DOMAIN,vip.liminalnet.pro,DIRECT
 
-# -------------------------------------------------
-# 其他私有 Emby 站点
-# -------------------------------------------------
 
-DOMAIN,a.sure156.cf,DIRECT
-DOMAIN,mygcns.mobaiemby.site,DIRECT
-DOMAIN,mcdn.mobaiemby.site,DIRECT
-DOMAIN,embyh1.sure156.cf,DIRECT
-DOMAIN,embyh2.sure156.cf,DIRECT
-DOMAIN,embyh3.sure156.cf,DIRECT
-DOMAIN,embyh4.sure156.cf,DIRECT
-DOMAIN,embyh5.sure156.cf,DIRECT
-DOMAIN,embya.sure156.cf,DIRECT
-DOMAIN,embyb.sure156.cf,DIRECT
-DOMAIN,embyc.sure156.cf,DIRECT
-DOMAIN,embyd.sure156.cf,DIRECT
-DOMAIN,embye.sure156.cf,DIRECT
-DOMAIN,embyk1.sure156.cf,DIRECT
-DOMAIN,embyk2.sure156.cf,DIRECT
-DOMAIN,embyk3.sure156.cf,DIRECT
-DOMAIN,embyk4.sure156.cf,DIRECT
-DOMAIN,embyk5.sure156.cf,DIRECT
-DOMAIN,embym1.sure156.cf,DIRECT
-DOMAIN,embym2.sure156.cf,DIRECT
-DOMAIN,embym3.sure156.cf,DIRECT
-DOMAIN,embym4.sure156.cf,DIRECT
-DOMAIN,embym5.sure156.cf,DIRECT
-DOMAIN,embya1.sure156.cf,DIRECT
-DOMAIN,embya2.sure156.cf,DIRECT
-DOMAIN,embya3.sure156.cf,DIRECT
-DOMAIN,embya4.sure156.cf,DIRECT
-DOMAIN,embya5.sure156.cf,DIRECT
+# --- 修正错误格式：178.239.125.136 是 IP，应写为 IP-CIDR ---
+IP-CIDR,178.239.125.136/32,no-resolve
 
-# -------------------------------------------------
-# Emby CDN / IP / ASN（fake-ip 下必须 no-resolve）
-# -------------------------------------------------
+# --- 安卓联网检测：直连 ---
+DOMAIN,connectivitycheck.gstatic.com,no-resolve
+DOMAIN,connectivitycheck.android.com,no-resolve
+DOMAIN,clients3.google.com,no-resolve
+DOMAIN,live.tv.darwinchow.com,no-resolve
 
-# 单 IP
-IP-CIDR,178.239.125.136/32,DIRECT,no-resolve
-IP-CIDR,154.64.232.36/24,DIRECT,no-resolve
+# --- Emby 常用 CDN / IP ---
+IP-CIDR,178.239.125.0/24,no-resolve
+IP-CIDR,103.197.185.0/24,no-resolve
+IP-CIDR,45.153.244.0/24,no-resolve
+IP-CIDR,154.64.232.0/24,no-resolve
+IP-ASN,132203,no-resolve
 
-# CDN 网段
-IP-CIDR,178.239.125.0/24,DIRECT,no-resolve
-IP-CIDR,103.197.185.0/24,DIRECT,no-resolve
-IP-CIDR,45.153.244.0/24,DIRECT,no-resolve
-IP-CIDR,154.64.232.0/24,DIRECT,no-resolve
-
-# ASN 兜底
-IP-ASN,132203,DIRECT,no-resolve
-
-# -------------------------------------------------
-# Android 联网检测（直连）
-# -------------------------------------------------
-
-DOMAIN,connectivitycheck.gstatic.com,DIRECT
-DOMAIN,connectivitycheck.android.com,DIRECT
-DOMAIN,clients3.google.com,DIRECT
-DOMAIN,live.tv.darwinchow.com,DIRECT
