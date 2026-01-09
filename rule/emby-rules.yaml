@@ -1,101 +1,36 @@
-# ============================
-# Emby 强制直连规则（OpenClash Compatible）
-# ============================
+# ==========================================
+# Emby 强制直连规则 (精简合并版)
+# ==========================================
 
-# --- Tailscale 专用 IP ---
-IP-CIDR,100.101.112.124/32,no-resolve
-IP-CIDR,100.107.1.117/32,no-resolve
-IP-CIDR,100.83.198.31/32,no-resolve
-IP-CIDR,100.80.193.95/32,no-resolve
-
-# --- Zerotier 专用 IP ---
-IP-CIDR,192.168.192.220/32,no-resolve
-
-# --- EasyTier 专用 IP ---
-IP-CIDR,10.10.10.2/32,no-resolve
-
-# --- Zerotier/Tailscale 默认端口直连 ---
+# --- 虚拟组网 (Tailscale/Zerotier/EasyTier) ---
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR,192.168.192.0/24,no-resolve
+IP-CIDR,10.10.10.0/24,no-resolve
 DST-PORT,9993
 DST-PORT,41641
 
-# --- lemby 节点 ---
-DOMAIN,us.lemby.me,no-resolve
+# --- 域名后缀合并 (推荐方式) ---
+DOMAIN-SUFFIX,lemby.me
+DOMAIN-SUFFIX,bangumi.ca
+DOMAIN-SUFFIX,theluyuan.com
+DOMAIN-SUFFIX,nyat.app
+DOMAIN-SUFFIX,younoyes.com
+DOMAIN-SUFFIX,567741.xyz
+DOMAIN-SUFFIX,liminalnet.pro
+DOMAIN-SUFFIX,sure156.cf
+DOMAIN-SUFFIX,mobaiemby.site
 
-# --- bangumi 节点 ---
-DOMAIN,ap-cn01.emby.bangumi.ca,no-resolve
-DOMAIN,ap-cn02.emby.bangumi.ca,no-resolve
+# --- 特定全域名 ---
+DOMAIN,live.tv.darwinchow.com
 
-# --- theluyuan 节点 ---
-DOMAIN,dongman.theluyuan.com,no-resolve
+# --- 安卓联网检测 (可选直连) ---
+DOMAIN,connectivitycheck.gstatic.com
+DOMAIN,connectivitycheck.android.com
+DOMAIN,clients3.google.com
 
-# --- emby 站点 ---
-DOMAIN,emby.h88d30ac9.nyat.app,no-resolve
-
-# --- younoyes 节点 ---
-DOMAIN,plusjp1.younoyes.com,no-resolve
-DOMAIN,plusjp2.younoyes.com,no-resolve
-DOMAIN,plusde1.younoyes.com,no-resolve
-DOMAIN,plusus2.younoyes.com,no-resolve
-DOMAIN,plusus3.younoyes.com,no-resolve
-DOMAIN,plushk1.younoyes.com,no-resolve
-DOMAIN,plushk2.younoyes.com,no-resolve
-DOMAIN,plushk3.younoyes.com,no-resolve
-DOMAIN,youjp1.567741.xyz,no-resolve
-DOMAIN,youjp2.567741.xyz,no-resolve
-DOMAIN,youus1.567741.xyz,no-resolve
-DOMAIN,youus2.567741.xyz,no-resolve
-DOMAIN,youus3.567741.xyz,no-resolve
-DOMAIN,youyes.567741.xyz,no-resolve
-DOMAIN,test.younoyes.com,no-resolve
-
-# --- liminalnet 节点 ---
-DOMAIN,vip.liminalnet.pro,no-resolve
-
-# --- 其他私有 Emby 站点 ---
-DOMAIN,a.sure156.cf,no-resolve
-DOMAIN,mygcns.mobaiemby.site,no-resolve
-DOMAIN,mcdn.mobaiemby.site,no-resolve
-DOMAIN,embyh1.sure156.cf,no-resolve
-DOMAIN,embyh2.sure156.cf,no-resolve
-DOMAIN,embyh3.sure156.cf,no-resolve
-DOMAIN,embyh4.sure156.cf,no-resolve
-DOMAIN,embyh5.sure156.cf,no-resolve
-DOMAIN,embya.sure156.cf,no-resolve
-DOMAIN,embyb.sure156.cf,no-resolve
-DOMAIN,embyc.sure156.cf,no-resolve
-DOMAIN,embyd.sure156.cf,no-resolve
-DOMAIN,embye.sure156.cf,no-resolve
-DOMAIN,embyk1.sure156.cf,no-resolve
-DOMAIN,embyk2.sure156.cf,no-resolve
-DOMAIN,embyk3.sure156.cf,no-resolve
-DOMAIN,embyk4.sure156.cf,no-resolve
-DOMAIN,embyk5.sure156.cf,no-resolve
-DOMAIN,embym1.sure156.cf,no-resolve
-DOMAIN,embym2.sure156.cf,no-resolve
-DOMAIN,embym3.sure156.cf,no-resolve
-DOMAIN,embym4.sure156.cf,no-resolve
-DOMAIN,embym5.sure156.cf,no-resolve
-DOMAIN,embya1.sure156.cf,no-resolve
-DOMAIN,embya2.sure156.cf,no-resolve
-DOMAIN,embya3.sure156.cf,no-resolve
-DOMAIN,embya4.sure156.cf,no-resolve
-DOMAIN,embya5.sure156.cf,no-resolve
-
-
-
-# --- 修正错误格式：178.239.125.136 是 IP，应写为 IP-CIDR ---
-IP-CIDR,178.239.125.136/32,no-resolve
-
-# --- 安卓联网检测：直连 ---
-DOMAIN,connectivitycheck.gstatic.com,no-resolve
-DOMAIN,connectivitycheck.android.com,no-resolve
-DOMAIN,clients3.google.com,no-resolve
-DOMAIN,live.tv.darwinchow.com,no-resolve
-
-# --- Emby 常用 CDN / IP ---
+# --- IP 段与 ASN ---
 IP-CIDR,178.239.125.0/24,no-resolve
 IP-CIDR,103.197.185.0/24,no-resolve
 IP-CIDR,45.153.244.0/24,no-resolve
 IP-CIDR,154.64.232.0/24,no-resolve
 IP-ASN,132203,no-resolve
-
