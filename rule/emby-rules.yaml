@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,mobaiemby.site
 
 # --- 特定全域名 ---
 DOMAIN,live.tv.darwinchow.com
+DOMAIN,q8dg.65194798.xyz
 
 # --- 安卓联网检测 (可选直连) ---
 DOMAIN,connectivitycheck.gstatic.com
