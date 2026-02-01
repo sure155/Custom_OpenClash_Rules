@@ -28,7 +28,7 @@ DOMAIN,q8dg.65194798.xyz
 DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,connectivitycheck.android.com
 DOMAIN,clients3.google.com
-
+DOMAIN,honeygain.com
 # --- IP 段与 ASN ---
 IP-CIDR,178.239.125.0/24,no-resolve
 IP-CIDR,103.197.185.0/24,no-resolve
